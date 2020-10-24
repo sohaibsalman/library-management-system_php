@@ -1,0 +1,49 @@
+.hr_style {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+	margin-top: 20px;
+}
+td
+{
+	color: black;
+	padding-left: 10px;
+}
+th
+{
+	color: black;
+	border-bottom: 2px dotted #8c8b8b;
+}
+#Newspapers
+{
+	margin-left: 95px;
+}
+#table_1_col_1
+{
+	width: 50px;
+}
+#table_1_col_2
+{
+	width: 150px;
+}
+#table_1_col_3
+{
+	width: 100px;
+}
+
+#table_2_col_1
+{
+	width: 50px;}
+#table_2_col_2_
+{
+	width: 160px;
+}
+#table_2_col_3
+{
+	width: 100px;
+}
+#table_2_style
+{
+	margin-left: 50px;
+	margin-top: -370px;
+}

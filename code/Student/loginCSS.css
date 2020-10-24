@@ -1,0 +1,124 @@
+body
+{
+	font-family: calibri;
+}
+#login_pic
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 200px;
+	margin-top: -110px;
+	margin-left: 108px;
+}
+#form_small_div{
+	position: relative;
+	margin-top: 20px;
+	margin-left: 360px;
+	width: 600px;
+	height: 300px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: darkcyan;
+	border: 1px solid white;
+	border-radius: 35px;
+	box-shadow: 4px 4px grey;
+}
+#form_small_field
+{
+	margin-left: 140px;
+	margin-top: 148px;
+}
+#btn_style{
+	background-image:linear-gradient(to right,  lightgrey, lavender,  white, white,  white, white, lavender, lightgrey);
+	font-weight: bold;
+	margin-left: 3px
+}
+#hr{
+	margin-top: 50px;
+	margin-left: 200px;
+	width: 950px;
+}
+#create_account_div{
+	border: 1px solid white;
+	border-radius: 35px;
+	background-color: darkcyan;
+	width: 800px;
+	height: 410px;
+	margin-top: 20px;
+	margin-left: 265px;
+	box-shadow: 4px 4px grey;
+}
+#create_account{
+	position: relative;
+	color: white;
+	margin-top: -410px;
+	margin-left: 365px;
+}
+#register_success
+{
+margin-left: 140px;
+margin-top: 148px;	
+}
+.heading{
+	font-weight: bold;
+	font-size: 20px;
+}
+.input{
+	width: 300px;
+	height: 35px;
+	border-radius: 7px;
+}
+.select_small{
+	width: 80px;
+	height: 35px;
+}
+#select_large{
+	width: 200px;
+	height: 35px;
+}
+#error_message
+{
+	font-family: calibri
+	margin-left: 700px;
+}
+.verifiaction_message_text
+{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 23px;
+	height: 50px;
+	font-style: italic;
+}
+#student_create_verifiaction_div
+{
+	background-color: #52be80;
+	margin-left: 250px;
+	margin-right: 250px;
+	border-radius: 15px;
+}
+#student_login_verifiaction_div
+{
+	background-color: #ea4343;
+	margin-left: 250px;
+	margin-right: 250px;
+	border-radius: 15px;
+}
+.create_message_text
+{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 23px;
+	height: 50px;
+	font-style: italic;
+}
+#login_footer{
+	position: relative;
+	top: 90px;
+	left: 50px;
+	width: 1230px;
+	height: 112px;
+	background-color: darkcyan;
+}

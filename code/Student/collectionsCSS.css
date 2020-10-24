@@ -1,0 +1,34 @@
+#pics_table_position
+{
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.pics
+{
+	padding-left: 20px;
+	height: 220px;
+	width: 170px;
+}
+.pics_td
+{
+	padding-left: 200px;
+}
+.collections_text
+{
+	display: inline-block;
+	margin-left: 330px;
+	margin-right:  35px;
+	margin-top: -40px;
+
+}
+.collections_pic
+{
+	display: inline-block;
+	width: 280px;
+	height: 150px;
+	border-radius: 10px;
+}
+h2
+{
+	font-weight: normal;
+}

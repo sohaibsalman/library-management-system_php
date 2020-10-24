@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Manage Library </title>
+		<link rel="stylesheet" type="text/css" href="adminCSS.css">
+		<link rel="stylesheet" type="text/css" href="adminLoginCSS.css">
+</head>
+<body>
+<div id="top" class="headerPosition"></div>
+	<header></header>
+	<table class="headerPosition" id="header">
+	  	<tr>
+	 		<td>
+	 			<img id="LogoPic" src="IMG-20181013-WA0000.png">
+	 		</td>
+	 		<td>
+	 			<h1 id="logoText"> Shaheen Library Management </h1>
+	 		</td>
+		</tr>
+	</table>
+
+
+<!-- Start of Navigational Bar (Menu) -->
+
+	<div id="menu_div">
+		<nav>
+		<div id="menu_inner_div">
+			<a href="Admin Home.html" class="menu"> Home </a>
+			<span class="bar"> |</span>
+			<a target="_blank" href="Library.html" class="menu"> Library </a>
+			<span class="bar"> |</span>
+			<a target="_blank" href="Manage Student.html" class="menu"> Manage Students </a>
+			<span class="bar"> |</span>
+			<a href="Manage Library.html" class="menu"> Manage Library </a>
+			<span class="bar"> |</span>
+			<a href="Admin login.html" class="menu"> Sign out </a>
+		</div>
+        </nav>
+    </div>
+
+	<br><br><br>
+	
+	<!-- Remove Book Form -->
+<div id="form_small_div" style="margin-left: 375px; margin-top: -10px; height: 200px;">
+	<h1 style="color: white;"><center> Remove Book	</center></h1>  
+	<table id="form_small_field" style="margin-top: 10px;">
+  		<tr>
+ 			<td> <input class="input" type="text" placeholder="  Book ID"/>
+ 		</tr>
+  		<tr>
+ 			<td> <input id="btn_style" type="submit" onclick="" value="Remove"/> </td>
+ 		</tr>
+	</table>
+</div>
+
+<div id="hr" style="margin-top: 80px;"> 
+	<hr>
+</div>
+
+	<!-- Add Book Form -->
+
+	<div id="Form_div" style="margin-top: 20px; margin-left: 275px; height: 300px;"> </div>
+
+<div id="Form" style="margin-left: 375px; margin-top: -300px;">
+	<h1 style="color: white;"> Add Book	 </h1>  
+		 <table>
+			<tr>
+ 				<td> <input class="input" type="text" placeholder="  Book ID"/>
+ 				<td> <input class="input" type="text" placeholder="  Book Name"/>
+	 		</tr>
+			<tr>
+ 				<td> <input class="input" type="text" placeholder="  Author"/>
+ 				<td> <input class="input" type="text" placeholder="  Edition"/>
+	 		</tr>
+			<tr>
+				<td>
+					<select id="select_large">
+						<option> Categories </option>
+						<option> Art </option>
+						<option> Biology </option>
+						<option> Business </option>
+						<option> Chemistry </option>
+						<option> Computer </option>
+						<option> Engineering </option>
+						<option> Language </option>
+						<option> Islamic </option>
+						<option> Mathematics </option>
+						<option> Novel </option>
+						<option> Physics </option>
+						<option> Poetry </option>
+						<option> Short Story </option>
+					</select>
+					<select id="select_small">
+						<option> No of Copies </option>
+						<option> 1 </option>
+						<option> 2 </option>
+						<option> 3 </option>
+						<option> 4 </option>
+						<option> 5 </option>
+						<option> 6 </option>
+						<option> 7 </option>
+						<option> 8 </option>
+						<option> 9 </option>
+						<option> 10 </option>
+					</select>
+				</td>
+	 		</tr>
+		</table>
+ <button onclick="" style="margin-top: 10px; width: 80px; height: 35px;" id="btn_style">Add</button>
+</div>
+
+<div id="hr" style="margin-top: 120px;"> 
+	<hr>
+</div>
+
+	<!-- Change Book Form -->
+
+	<div id="Form_div" style="margin-top: 20px; margin-left: 275px; height: 300px;"> </div>
+
+<div id="Form" style="margin-left: 375px; margin-top: -300px;">
+	<h1 style="color: white;"> Change Book	 </h1>  
+		 <table>
+			<tr>
+ 				<td> <input class="input" type="text" placeholder="  Book ID (Current)"/>
+ 				<td> <input class="input" type="text" placeholder="  Book ID (New)"/>
+	 		</tr>
+			<tr>
+ 				<td> <input class="input" type="text" placeholder="  Book Name (New)"/>
+ 				<td> <input class="input" type="text" placeholder="  Author (New)"/>
+	 		</tr>
+			<tr>
+ 				<td> <input class="input" type="text" placeholder="  Edition (New)"/>
+				<td>
+					<select id="select_small">
+						<option> No of Copies </option>
+						<option> 1 </option>
+						<option> 2 </option>
+						<option> 3 </option>
+						<option> 4 </option>
+						<option> 5 </option>
+						<option> 6 </option>
+						<option> 7 </option>
+						<option> 8 </option>
+						<option> 9 </option>
+						<option> 10 </option>
+					</select>
+				</td>
+	 		</tr>
+		</table>
+ <button onclick="" style="margin-top: 10px; width: 80px; height: 35px;" id="btn_style"> Change </button>
+</div>
+
+    	
+
+<!-- Start of Footer -->
+
+<div id="footer" style="margin-top: 200px;">
+	<table id="footer_table">
+		<tr>
+			<td class="lineSpacing" id="footer_column1"> <p id="name"> Shaheen Library </p> <br> &#169; 2010 All Rights Reserved.</td>
+			<div></div>
+			<td class="lineSpacing" id="footer_column2"> <u><h3> Postal Address: </h3></u>
+				<p> Shaheen Library, Lahore</p>
+			</td>
+			<td class="lineSpacing" id="footer_column3">
+				<u><h3> E-mail / Phone / Fax: </h3></u>
+				<p> E-mail: chieflibrarian@gmail.com </p>
+				<p> Ph# 04212345678 </p>
+				<p> Fax# 04212345678 </p>
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>

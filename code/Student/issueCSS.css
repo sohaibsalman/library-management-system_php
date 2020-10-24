@@ -1,0 +1,39 @@
+##degree
+{
+	width: 100px;
+}
+#request_book_div
+{
+	border: 1px solid white;
+	border-radius: 35px;
+	background-color: darkcyan;
+	width: 800px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 265px;
+	box-shadow: 4px 4px grey;
+}
+#request_book_form
+{
+	position: relative;
+	color: white;
+	margin-top: -390px;
+	margin-left: 365px;
+}
+.error_message
+{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 23px;
+	height: 50px;
+	font-style: italic;
+}
+#error_message_div
+{
+	margin-top: 100px;
+	background-color: #ea4343;
+	margin-left: 280px;
+	width: 450px;
+	border-radius: 15px;
+}
