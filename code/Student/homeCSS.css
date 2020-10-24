@@ -1,0 +1,289 @@
+body
+{
+	background-color: white;
+	font-family: calibri;
+}
+#top{
+	top:-8px;
+	margin-right: 83px;
+	height: 10px;
+	background-color: darkcyan;
+}
+header{
+	height: 150px;
+	background-color: ;
+	margin-right: -7px;
+	margin-top: -25px;
+	margin-bottom: -20px;
+}
+.headerPosition{
+	position: relative;
+	margin-left: 50px;
+	margin-right: -7px;
+	width: 1230px;
+}
+#LogoPic{
+	position: relative;
+	margin-top: -100px;
+	height: 70px;
+	width: 150px;
+	margin-left: 40px;
+	background-color: white;
+}
+#logoText{
+	position: relative;
+	font-size: 55px;
+	font-family: Edwardian Script ITC;
+	color: darkgoldenrod;
+	margin-left: -230px;
+	text-shadow: 0.5px 0.5px darkcyan;
+	margin-top: -30px;
+}
+#home_page_pic_border
+{
+	position: relative;
+	margin-left: 50px;
+	margin-top: -25px;
+	height: 505px;
+	width: 1226px;
+	border: 2px solid darkcyan;
+}
+#home_page_pic{
+	position: relative;
+	padding-left: 4px;
+	padding-top: 5px;
+	height: 500px;
+	width: 1218px;
+}
+#header{
+	margin-top: -80px;
+	margin-left: 25px;
+	height: 50px;
+}
+#shade{
+	position: relative;
+	top:-5px;
+	margin-right: 83px;
+	height: 70px;
+	background-color: darkcyan;
+}
+#menu_div{
+	/*for box*/
+	position: relative;
+	top: -100px;
+	margin-left: 150px;
+	margin-right: 150px;
+	height: 62px;
+	line-height: 40px;
+	text-align: center;
+	background-color: white;
+}
+#menu_div2{
+	/*for outline*/
+	position: relative;
+	top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 50px;
+	border: 1px solid black;
+}
+.menu{
+	text-decoration: none;
+	color: black;
+	margin-top: 5px;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 20px;
+}
+.menu:hover
+{
+	background-color: darkcyan;
+	color: white;
+	border-radius: 5px;
+}
+.bar{
+	color: #696969;
+}
+
+/* Slider CSS */
+
+#container
+{
+	width: 1228px;
+	height: 500px;
+	border: 2px solid darkcyan;
+	position: relative;
+	margin: auto;
+}
+img{
+	width: 1220px;
+	height: 492px;
+	padding-left: 4px;
+	padding-top: 4px;
+	position: absolute;
+}
+.slider_btn
+{
+	position: absolute;
+	margin-top: 230px;
+	border: none;
+	height: 40px;
+	width: 40px;
+	border-radius: 100px;
+	font-size: 23px;
+	margin-left: 6px;
+	border: 1.5px  solid darkgrey;
+}
+#btn2
+{
+	position: relative;
+	float: right;
+	margin-right: 6px;
+}
+#btn1:hover
+{
+	box-shadow: -2px 2px 2px 2px silver;
+}
+#btn2:hover
+{
+	box-shadow: 2px 2px 2px 2px silver;
+}
+.display_style
+{
+	display: inline-block;
+}
+#box_layout
+{
+	box-shadow: 2px 2px 5px 1px darkcyan;	/* right bottom blur blur_width */
+	/* padding for text within the box */
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:5px;
+	margin-left: 50px;
+	width:855px;
+	background-image:linear-gradient(to right,  #eee9e9, white,  white, white, white, #eee9e9);
+}
+#quick_inks
+{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+#side_bar_border
+{
+	float: right;
+	margin-right: 50px;
+	width: 280px;
+	height: 527px;
+	border: 2px solid silver;
+	background-color: darkcyan;
+}
+#side_bar
+{
+	margin-left: 10px;
+	width: 260px;
+	height: 440px;	  
+	background-image:linear-gradient(to right,  #eee9e9, white,  white, white, white, #eee9e9);
+}
+.side_bar_pic
+{
+	margin-top: 10px;
+	height: 43px;
+	width: 50px;
+	margin-left: 10px;
+}
+.side_bar_text
+{
+	margin-left: 80px;
+	padding-top: 20px;
+	font-size: 20px;
+}
+.hr_style {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+	margin-top: 10px;
+}
+.table
+{
+	background-color: white;
+}
+
+a{
+	text-decoration: none;
+	color: darkcyan;
+}
+h1, h2, h4
+{
+	color: darkcyan;
+}
+/* Footer Style */
+#footer{
+	position: relative;
+	top: 180px;
+	left: 50px;
+	width: 1230px;
+	height: 112px;
+	background-color: darkcyan;
+}
+#footer_table{
+	position: relative;
+	left: 60px;
+	color: white;
+	border:1;
+	text-align: left;
+}
+.lineSpacing{
+	line-height: 5px;
+}
+#footer_column1{
+	width: 370px;
+	border-right: 2px solid white;
+	padding-left: 20px
+}
+#footer_column2{
+	width: 370px;
+	border-right: 2px solid white;
+	padding-left: 20px;
+}
+#footer_column3{
+	position: relative;
+	left: 20px;
+	width: 230px;
+}
+#name
+{
+	font-weight: bold;
+	font-size: 28px;
+}
+
+#lms_table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: 25%;
+}
+
+#lms_table td, #lms_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#lms_table tr:nth-child(odd){background-color:  #c9dacf     ;}
+
+#lms_table tr:hover {background-color: #ddd;}
+
+#lms_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #5499c7 ;
+  color: white;
+}
+#student_this_page
+{
+	color: darkgoldenrod;
+}

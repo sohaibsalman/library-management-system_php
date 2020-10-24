@@ -1,0 +1,32 @@
+#search_book_div
+{
+	border: 1px solid white;
+	border-radius: 35px;
+	background-color: darkcyan;
+	width: 800px;
+	height: 270px;
+	margin-top: 50px;
+	margin-left: 265px;
+	box-shadow: 4px 4px grey;
+}
+#search_book_form
+{
+	position: relative;
+	color: white;
+	margin-top: -85px;
+	margin-left: 365px;
+	margin-left: -300px;
+}
+#search_icon
+{
+	width: 100px;
+	height: 100px;
+	margin-top: -155px;
+	margin-left: 250px;
+}
+#search_bar
+{
+	width: 250px;
+	height: 35px;
+	margin-left: 10px;
+}

@@ -1,0 +1,39 @@
+.column
+{
+    float: left;
+    width: 33%;
+    padding: 30px;
+}
+.gallery_image_layout
+{
+	width: 210px;
+	height: 320px;
+	border:3px solid darkcyan;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.digital_btn
+{
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+	background-color: darkcyan;
+	height: 30px;
+	border-radius: 5px;
+}
+.book_name
+{
+	margin-left: 42px;
+	margin-top: 290px;
+	width: 210px;
+	height: 30px;
+	background-color: darkcyan;
+	color: white;
+	padding-top: 3px;
+	text-align: center;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 18px;
+}

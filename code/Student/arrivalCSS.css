@@ -1,0 +1,26 @@
+.row
+{
+	margin-top: 330px;
+}
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+.container {
+    position: relative;
+    display: none;
+}
+.gallery_image_layout
+{
+	width: 180px;
+	height: 290px;
+	border:3px solid darkcyan;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}

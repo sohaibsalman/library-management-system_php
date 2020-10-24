@@ -1,0 +1,45 @@
+th
+{
+	width: 100px;
+}
+#table1_style
+{
+	text-align: left;
+	background-color: white;
+	float: left;
+	margin-left: 90px;
+	margin-top: 100px;
+}
+#table2_style
+{
+	margin-right: 20px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+/*#verticle_bar
+{
+	width: 0 px;
+	height: 200px;
+	border: 1px solid black;
+	box-shadow: 10 10px 10px 10px #8c8b8b;
+}*/
+
+.error_message
+{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 23px;
+	height: 50px;
+	font-style: italic;
+}
+#error_message_div
+{
+	margin-top: 40px;
+	background-color: #ea4343;
+	margin-left: 430px;
+	width: 450px;
+	border-radius: 15px;
+}
+
