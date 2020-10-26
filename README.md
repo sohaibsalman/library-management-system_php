@@ -3,9 +3,9 @@
 Web based Library Management System for an institution, with all basic features. It was a group semester project in the course of Database Management System.
 
 ## Developers:
-- Abdul Wahab (Databse and Back-end) <a href="https://github.com/bitf17a011" target="_blank"> GitHub Profile </a>
-- Basharat Ali (Front-end)  <a href="https://github.com/BasharatAli1" target="_blank"> GitHub Profile </a>
-- Sohaib Salman (Back-end)  <a href="https://github.com/sohaibsalman" target="_blank"> GitHub Profile </a>
+- Abdul Wahab (Databse and Back-end) <a href="https://github.com/bitf17a011" target="_blank"> See GitHub Profile </a>
+- Basharat Ali (Front-end)  <a href="https://github.com/BasharatAli1" target="_blank"> See GitHub Profile </a>
+- Sohaib Salman (Back-end)  <a href="https://github.com/sohaibsalman" target="_blank"> See GitHub Profile </a>
 
 ## Technologies:
 - HTML
