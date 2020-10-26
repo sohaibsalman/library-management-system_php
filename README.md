@@ -19,7 +19,7 @@ Web based Library Management System for an institution, with all basic features.
 - MySQL
 - Visual Studio Code/Brackets
 
-## Modulse:
+## Modules:
 - Admin Portal
 - Student Portal
 
